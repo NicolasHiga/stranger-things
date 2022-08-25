@@ -219,7 +219,7 @@ header::before {
   transform: rotateZ(180deg) scaleX(-1);
   position: relative;
 
-  mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
+  mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
@@ -360,7 +360,7 @@ section {
   position: absolute;
   top: 24px;
   left: 24px;
-  z-index: -1;
+  z-index: -1; /*Ficar atrás*/
 }
 
 #section-form .form-container form {
