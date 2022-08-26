@@ -404,6 +404,12 @@ footer p {
   margin-bottom: 24px;
 }
 
+footer > p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
 footer::before,
 footer::after {
   content: "";
